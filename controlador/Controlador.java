@@ -32,7 +32,7 @@ public class Controlador implements ActionListener {
             String operador = miVentana.miPanelEntradaDatos.getCbOperador();
             PlanTelefonia nuevoPlan = new PlanTelefonia(operador, numeroCelular, cantidadMinutos);
             nuevoPlan.getCostoPlan();
-            miVentana.miPanelResultados.mostrarResultado("Datos plan: \n "+ "El plan es: "+ operador+"\n El numero de telefono es: "+numeroCelular+"\nLa cantidad de minutos es: "+ cantidadMinutos+"\n El montodo a pagar es: "+nuevoPlan.getCostoPlan());
+            miVentana.miPanelResultados.mostrarResultado("Datos plan: \n "+ "El plan es: "+ operador+"\n El numero de telefono es: "+numeroCelular+"\nLa cantidad de minutos es: "+ cantidadMinutos+"\n El montodo a pagar es: " +nuevoPlan.getCostoPlan());
 
         }
         catch(Exception e)

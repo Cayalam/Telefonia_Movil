@@ -71,9 +71,6 @@ public class PanelEntradaDatos extends JPanel
         return tfNumCelular.getText();
     }
 
-    public void setTfNumCelular(JTextField tfNumCelular) {
-        this.tfNumCelular = tfNumCelular;
-    }
 
  
 
@@ -81,17 +78,13 @@ public class PanelEntradaDatos extends JPanel
         return tfCantidadMinutos.getText();
     }
 
-    public void setTfCantidadMinutos(JTextField tfCantidadMinutos) {
-        this.tfCantidadMinutos = tfCantidadMinutos;
-    }
+   
 
     public String getCbOperador() {
         return (String) cbOperador.getSelectedItem();
     }
 
-    public void setCbOperador(JComboBox cbOperador) {
-        this.cbOperador = cbOperador;
-    }
+    
     public void borra()
     {
         tfNumCelular.setText("");

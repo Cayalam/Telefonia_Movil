@@ -6,3 +6,9 @@ Usar mínimo dos metodos constructores.
 ## Diagrama de Clases
 
 ![diagrama de clases](class-diagram.png "Diagrama de clases")
+## INTERFAZ
+![ interfaz](interfaz.png "Interfaz grafica")
+## Precio con Claro
+![ claro](conclaro.png "Precio con Claro")
+## Precio con Wom
+![ Wom](conWom.png "Precio con Wom")
