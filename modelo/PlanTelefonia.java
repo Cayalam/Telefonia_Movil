@@ -18,15 +18,12 @@ public class PlanTelefonia {
     public PlanTelefonia() {
     }
     public void calcularCostoPlan(){
-        ;
+        costoPlan= cantidadMinutos*valorMinutos;
         if(operador.equals("Wom"))
         {
-            costoPlan= (cantidadMinutos*valorMinutos)*(0.5);
+            costoPlan= costoPlan*(0.5);
 
 
-        }else
-        {
-            costoPlan= cantidadMinutos*valorMinutos;
         }
 
     }
