@@ -27,7 +27,7 @@ public class Controlador implements ActionListener {
      {
         try
         {
-            int numeroCelular = Integer.parseInt(miVentana.miPanelEntradaDatos.getTfNumCelular());
+            String numeroCelular = miVentana.miPanelEntradaDatos.getTfNumCelular();
             int cantidadMinutos = Integer.parseInt(miVentana.miPanelEntradaDatos.getTfCantidadMinutos());
             String operador = miVentana.miPanelEntradaDatos.getCbOperador();
             PlanTelefonia nuevoPlan = new PlanTelefonia(operador, numeroCelular, cantidadMinutos);

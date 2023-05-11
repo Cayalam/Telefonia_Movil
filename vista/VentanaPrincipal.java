@@ -37,7 +37,7 @@ public class VentanaPrincipal extends JFrame {
         miPanelResultados.setBounds(10,370,380,180);
         this.add(miPanelResultados);
          //Caracteristicas de la ventana
-         this.setTitle("Minutero");
+         this.setTitle("Carlos Eduardo Ayala Moreno");
          this.setSize(400,600);
          this.setLocationRelativeTo(null);
          this.setDefaultCloseOperation(EXIT_ON_CLOSE);

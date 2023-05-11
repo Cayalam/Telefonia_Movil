@@ -1,13 +1,13 @@
 package modelo;
 
 public class PlanTelefonia {
-    private int numeroCelular;
+    private String numeroCelular;
     private String operador;
     private int cantidadMinutos;
     private double valorMinutos=300;
     private double costoPlan;
 
-    public PlanTelefonia(String pOperador,int pNumeroCelular,int pCantidadMinutos){
+    public PlanTelefonia(String pOperador,String pNumeroCelular,int pCantidadMinutos){
         this.operador= pOperador;
         this.numeroCelular = pNumeroCelular;
         this.cantidadMinutos = pCantidadMinutos;
@@ -28,11 +28,11 @@ public class PlanTelefonia {
 
     }
 
-    public int getNumeroCelular() {
+    public String getNumeroCelular() {
         return numeroCelular;
     }
 
-    public void setNumeroCelular(int numeroCelular) {
+    public void setNumeroCelular(String numeroCelular) {
         this.numeroCelular = numeroCelular;
     }
 
